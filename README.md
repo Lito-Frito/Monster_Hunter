@@ -9,9 +9,9 @@ I've built upon it by allowing users to pass along arguments to the script so th
 ## What This Includes
 There are two available scripts:
 
-    1. ```tutorial-beautiful-soup-web-scraper-python.py```: The sample script from the tutorial with my additional comments to help first timers follow along easier
+    1. `tutorial-beautiful-soup-web-scraper-python.py`: The sample script from the tutorial with my additional comments to help first timers follow along easier
 
-    2. ```job_web_scraper.py```: The command line app to help you scrape relevant jobs from Monster
+    2. `job_web_scraper.py`: The command line app to help you scrape relevant jobs from Monster
 
 # Getting Started
 
