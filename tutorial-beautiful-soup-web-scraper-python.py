@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-URL = 'https://www.monster.com/jobs/search/?q=python&where=boston'
+URL = 'https://www.monster.com/jobs/search/?q=python&where=chicago'
 
 #pinging page for content with a 200 request
 page = requests.get(URL)
