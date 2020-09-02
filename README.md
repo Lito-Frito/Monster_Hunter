@@ -11,7 +11,7 @@ There are two available scripts:
 
 1. `RP_Tutorial.py`: The sample script from the tutorial with my additional comments and UI changed to help first timers follow along easier
 
-2. `job_scraper.py`: The command line app to help you scrape relevant jobs from Monster by city and Language
+2. `job_scraper.py`: The command line app to help you scrape relevant jobs from Monster by City and Language
 
 
 # Getting Started
