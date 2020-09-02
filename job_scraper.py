@@ -30,7 +30,7 @@ job_elems = results.find_all('section', class_='card-content')
 
 print("\n", end='')
 print("*" * 75, "\n")
-input(f"{len(job_elems)} total search results loaded. \nPress ENTER to print results:")
+input("Search results loaded. \nPress ENTER to print results:")
 
 
 #Return results of job search
