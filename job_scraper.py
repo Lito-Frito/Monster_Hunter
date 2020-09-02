@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-language = input("What language do you want to search jobs for or leave blank and press ENTER: ")
-location = input("What city OR state do you want to search for jobs or leave blank and press ENTER: ").replace(' ', '-')
+language = input("Language to search jobs for or leave blank and press ENTER: ")
+location = input("City OR state to search for jobs or leave blank and press ENTER: ").replace(' ', '-')
 
 if language:
 
@@ -57,35 +57,44 @@ for job_elem in job_elems:
 
     print("-" * 75,'\n' )
 
-#string= searches for an EXACT match, so we use lower() to change all H2 text
-#to lowercase, so we can better search, removing the possiblity of some titles
-#being in upper case; it also only returns text/discards things like <a> links
-#python_jobs = results.find_all('h2',
-                               # string=lambda text: 'python' in text.lower())
 
 
+#-----------------------*********-----------------------
+####This feature will be added in the future after I get the bugs out
 
-# #this loop will extract the contents of the <a> tag (href) and then return
-# #it so you can click on the link to apply
-# print("JOBS:")
-# for p_job in job_elems:
-#     link = p_job.find('a')['href']
-#     print(p_job.text.strip())
-#     print(f"Apply here: {link}\n")
-#     print("-" * 75,'\n' )
-
-# entry_jobs = results.find_all('h2',
-#                                string=lambda text: 'entry' in text.lower() or 'junior' in text.lower() or 'jr' in text.lower())
-
-#this loop will extract the contents of the <a> tag (href) and then return
-#it so you can click on the link to apply
-# print("ENTRY JOBS:")
-# for job in apply_links:
-#     link = job.find('a')['href']
-#     print(job.text.strip())
-#     print(f"Apply here: {link}\n")
-#     print("-" * 75,'\n' )
-
-# #THIS IS PYTHON SPECIFIC: FIGURE OUT HOW TO MAKE IT BROAD
-# print(f"Available Python Jobs: {len(python_jobs)}")
+# Filter by role
+# role = input("Role to filter results by or leave blank (e.g. data scientist or junior):")
+# print(role)
+# if role:
+#     jobs_by_role = results.find_all('h2',
+#                                string=lambda text: f'{role}' in text.lower())
+#
+#     for roles in job_elems:
+#     title_elem = jobs_by_role.find('h2', class_='title')
+#     company_elem = jobs_by_role.find('div', class_='company')
+#     location_elem = jobjobs_by_role_elem.find('div', class_='location')
+#
+#     if None in (title_elem, company_elem, location_elem):
+#         continue
+#
+#     for jobs in jobs_by_role:
+#         print(title_elem.text.strip())
+#         print(company_elem.text.strip())
+#         print(f"{location_elem.text.strip()}", "\n")
+#
+#
+# for job in jobs_by_role:
+#     title_elem = job_elem.find('h2', class_='title')
+#     company_elem = job_elem.find('div', class_='company')
+#     location_elem = job_elem.find('div', class_='location')
+#
+#     if None in (title_elem, company_elem, location_elem):
+#         continue
+#
+#     print(title_elem.text.strip())
+#     print(company_elem.text.strip())
+#     print(f"{location_elem.text.strip()}", "\n")
+#     print("-" * 75,'\n')
+#
+#
 # print(f"Available Entry-level Jobs: {len(entry_jobs)}")
