@@ -22,9 +22,8 @@ There are two available scripts:
 * requests
 
 ## Quick Start
-Get your environment set up by running the following commands in your terminal:
+Clone this repo. Then set your environment set up by running the following commands in your terminal:
 ```
-pip3 install beautifulsoup4
-pip3 install requests
+pip install -r requirements.txt
 ```
-Then clone this repo and run ```job_scraper.py``` to start scraping for jobs.
+Run ```job_scraper.py``` to start scraping for jobs.
