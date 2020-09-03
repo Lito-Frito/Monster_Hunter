@@ -22,7 +22,7 @@ There are two available scripts:
 * requests
 
 ## Quick Start
-Clone this repo. Then set your environment set up by running the following commands in your terminal:
+Clone this repo. Then set your environment set up by running the following command in your terminal:
 ```
 pip install -r requirements.txt
 ```
