@@ -37,8 +37,7 @@ input("Search results loaded. \nPress ENTER to print results:")
 print("Printing jobs:")
 # this will print every job posting as text
 for job_elem in job_elems:
-    # each job_elem is a new BeautifulSoup object
-    # you can use the same methods on it as you did before
+
     title_elem = job_elem.find('h2', class_='title', string=lambda text: f'{language}' in text.lower())
     company_elem = job_elem.find('div', class_='company')
     location_elem = job_elem.find('div', class_='location')
@@ -49,12 +48,10 @@ for job_elem in job_elems:
     if None in (title_elem, company_elem, location_elem, link):
         continue
 
-    # elem.text returns only text from that element, not all the HTML tag info
     print(title_elem.text.strip())
     print(company_elem.text.strip())
     print(f"{location_elem.text.strip()}")
     print(f"Apply here: {link['href']}\n")
-
     print("-" * 75,'\n' )
 
 
