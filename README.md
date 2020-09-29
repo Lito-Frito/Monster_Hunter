@@ -23,14 +23,13 @@ There are two available scripts:
 * requests
 
 ## Quick Start
+You can go to [repl.it](https://repl.it/@crc8109/job-scraper#README.md) where I'm hosting the app in a personal repl. When you click the link, just hit the button up top that says `Run` with the forward arrow and the app will start up.
+
+## Start from Scratch
 Clone this repo. Then set your environment set up by running the following command in your terminal:
 ```
 pip install -r requirements.txt
 ```
 Run ```job_scraper.py``` to start scraping for jobs.
-
-OR
-
-You can go to [repl.it](https://repl.it/@crc8109/job-scraper#README.md) where I'm hosting the app in a personal repl. When you click the link, just hit the button up top that says `Run` with the forward arrow and the app will start up.
 
 If this doesn't work, feel free to reach out.
