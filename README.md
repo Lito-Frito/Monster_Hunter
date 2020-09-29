@@ -31,6 +31,6 @@ Run ```job_scraper.py``` to start scraping for jobs.
 
 OR
 
-You can go to [repl.it](https://repl.it/@crc8109/job-scraper#README.md) where I'm hosting the app in a personal repl. When you click the link, just hit `Run` button with the forward arrow and the app will start up.
+You can go to [repl.it](https://repl.it/@crc8109/job-scraper#README.md) where I'm hosting the app in a personal repl. When you click the link, just hit the button up top that says `Run` with the forward arrow and the app will start up.
 
 If this doesn't work, feel free to reach out.
