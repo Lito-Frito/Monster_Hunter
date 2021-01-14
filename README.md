@@ -23,8 +23,4 @@ There are two available scripts:
 * requests
 
 ## Quick Start
-Clone this repo. Then set your environment set up by running the following command in your terminal:
-```
-pip install -r requirements.txt
-```
-Run ```job_scraper.py``` to start scraping for jobs.
+Go to the replit link above and click ```Run```. That's it! Any issues, feel free to reach out
