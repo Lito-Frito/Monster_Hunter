@@ -32,6 +32,6 @@ pip install -r requirements.txt
 ```
 Run ```job_scraper.py``` to start scraping for jobs.
 
-OR if you're using Replit, simply hit '''Run''' at the top.
+OR if you're using Replit, simply hit ```Run``` at the top.
 
 If this doesn't work, feel free to reach out!
