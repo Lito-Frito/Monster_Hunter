@@ -1,18 +1,15 @@
 # Monster Job Web Scraper
 [![Run on Repl.it](https://repl.it/badge/github/crc8109/job-scraper)](https://repl.it/github/crc8109/job-scraper)
 
-I followed a tutorial from [Real Python](https://realpython.com/beautiful-soup-web-scraper-python/) and [Martin Breuss](https://github.com/martin-martin).
+I used a tutorial from [Real Python](https://realpython.com/beautiful-soup-web-scraper-python/) and [Martin Breuss](https://github.com/martin-martin) to build a tool to help cut down on the noise in the job hunting process.
 
-In the tutorial, they teach you about Beautiful Soup by creating a web scraper that searches Monster.com for software developer positions.
 
-I've built upon it by allowing users to pass along arguments to the script so that users can get more tailored results, making it a command line app. You can pass along city or state and language to get the results you need. In the future, you can pass along another argument (called Role) so that you can look for more relevant positions (e.g front end, data scientist, etc).
+
+Users pass along arguments to the script (lie a language e.g. Python and a location e.g. Chicago) so that users can get more tailored result. It's a CLI app but I'm hosting it on Replit to make it accesible to anyone. In the future, you can pass along another argument (called Role) so that you can look for more relevant positions (e.g front end, data scientist, etc).
 
 ## What This Includes
-There are two available scripts:
 
-1. `RP_Tutorial.py`: The sample script from the tutorial with my additional comments and UI changed to help first timers follow along easier
-
-2. `job_scraper.py`: The command line app to help you scrape relevant jobs from Monster by City and Language
+ `job_scraper.py`: The command line app to help you scrape relevant jobs from Monster by City and Language
 
 
 # Getting Started
@@ -32,4 +29,4 @@ pip install -r requirements.txt
 ```
 Run ```job_scraper.py``` to start scraping for jobs.
 
-If this doesn't work, feel free to reach out.
+If this doesn't work, it could be Monster updated their layout of their site, so my script will need updating (the woes of web scrapping). But feel free to reach out if you need anything.
