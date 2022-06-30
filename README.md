@@ -1,6 +1,9 @@
 # Monster Job Web Scraper
 [![Run on Repl.it](https://repl.it/badge/github/crc8109/job-scraper)](https://repl.it/github/crc8109/job-scraper)
 
+## UPDATE 2022: Monster has changed their site from static to dynamic, which now breaks this project. I'm keeping this repo up as a proof of concept.
+### Continue old README:
+
 I followed a tutorial from [Real Python](https://realpython.com/beautiful-soup-web-scraper-python/) and [Martin Breuss](https://github.com/martin-martin).
 
 In the tutorial, they teach you about Beautiful Soup by creating a web scraper that searches Monster.com for software developer positions.
